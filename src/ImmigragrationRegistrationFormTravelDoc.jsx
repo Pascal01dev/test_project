@@ -2,10 +2,10 @@ import './App.css'
 
 function TravelDoc(){
     return(
-        <div className="personalInfo">
-            <form action="#" className='bio-form' >
+        <div className="TravelInfo">
+            <form action="#" className='Travel-bio-form' >
 
-                <h1>Registration Form</h1>
+                <h1>Travel Details</h1>
                 <div className="inputs">
                     <div className="input-content">
                         <label htmlFor="#">Passport Number<span>*</span></label>
@@ -13,7 +13,7 @@ function TravelDoc(){
                     </div>
 
                     <div className="input-content">
-                        <label htmlFor="#">Last Name<span>*</span></label>
+                        <label htmlFor="#">Passport Type<span>*</span></label>
                         <select name="Passport-type" id="" required>
                             <option value="Passport-type" disabled>--Select</option>
                             <option value="Passport-type">Ordinary</option>
@@ -47,15 +47,17 @@ function TravelDoc(){
                     </div>
                 </div>
 
-                <div className="inputs">
+                <div className="Passport-copy" >
                     <div className="input-content">
                         <label htmlFor="#">Upload a copy of Passport<span>*</span></label>
                         <input type="file"  accept='.pdf' required/>
                     </div>
                 </div>
 
-                <button className='bio-btn'>Next</button>
-                
+                <div className="Travel-btn">
+                    <button className='Travel-btn1'>Previous</button>
+                    <button className='Travel-btn2'>Next</button>
+                </div>                
             </form>
         </div>
     );
