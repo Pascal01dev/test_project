@@ -1,12 +1,11 @@
 
 import './App.css'
-
+// import RegistrationForm from '/src/ImmigrantRegistrationFormPersonalInformation.jsx'
+import TravelDoc from '/src/ImmigragrationRegistrationFormTravelDoc.jsx'
 
 function App() {
     return(
-        <div>
-            <h1>Hello World</h1>
-        </div>
+        <TravelDoc/>
     );
 
   
