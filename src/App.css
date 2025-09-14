@@ -14,7 +14,7 @@
 
 .bio-form{
   width: 40%;
-  height: 75%;
+  height: 85%;
   background-color: white;
   box-shadow: 0 0 2px #016e57;
   border-radius: 8px;
@@ -72,6 +72,8 @@
   border: none;
   border-radius: 8px;
   color: white;
+  font-size: 1.5em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin-top: 10px;
   margin-left: 285px;
 }
@@ -298,3 +300,148 @@
   /* margin-top: 10px; */
   /* margin-left: 285px; */
 }
+
+
+/* ====================================================================================*/
+/* LANDING PAGE INTERFACE CSS */
+.landing-page{
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: wheat; */
+}
+
+.landing-page header{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 0px;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+}
+
+.landing-page header img{
+  width: 200px;
+}
+
+.landing-page nav a{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.2em;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+}
+
+.landing-page #Active{
+  color: #016e57;
+}
+
+#hero{
+  width: 100vw;
+  height: 90vh;
+  display: grid;
+  place-items: center;
+  background-image: url(assets/herobg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgb(26, 25, 25, 0.3);
+  background-blend-mode: darken;
+}
+
+.hero-content{
+  width: 90%;
+  height: auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+}
+
+.hero-content h1{
+  font-size: 1.5em;
+}
+
+.hero-content h2{
+  font-size: 5em;
+}
+
+.hero-content p{
+  font-size: 2em;
+}
+
+.hero-content button{
+  width: 150px;
+  height: 50px;
+  margin: 10px 20px 0px 0px;
+  background-color: #016e57;
+  border: none;
+  border-radius: 8px;
+  color: wheat;
+  font-size: 1.5em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  cursor: pointer;
+}
+
+#applications{
+  width: 100vw;
+  height: auto;
+  background-color: white;
+  display: grid;
+  place-items: center;
+}
+
+.application-content{
+  width: 70%;
+  height: 20vh;
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.apply{
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: -100px;
+  background-color: white;
+  box-shadow: 0 0 5px rgb(160, 157, 157);
+
+}
+
+.application-content img{
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgb(65, 62, 62);
+  border-radius: 50%;
+  padding: 2px;
+  margin-bottom: 10px;
+}
+
+.application-content h3{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #016e57;
+  margin-bottom: 20px;
+}
+
+.application-content button{
+  width: 100px;
+  height: 30px;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1em;
+  background-color: #016e57;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+

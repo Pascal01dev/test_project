@@ -27,7 +27,7 @@ function RegistrationForm(){
                     <div className="input-content">
                         <label htmlFor="#">Geneder<span>*</span></label>
                         <select name="Gender" id="" required>
-                            <option value="Gender" >--Select</option>
+                            <option value="" selcted>--Select</option>
                             <option value="Gender">Male</option>
                             <option value="Gender">Female</option>
                         </select>
@@ -60,9 +60,9 @@ function RegistrationForm(){
 
                 <div className="inputs">
                     <div className="input-content">
-                        <label htmlFor="#">Previous Nationality<span>*</span></label>
+                        <label htmlFor="#">Marital Status<span>*</span></label>
                         <select name="Status" id="" required>
-                            <option value="Status">--Select</option>
+                            <option value="">--Select an Option</option>
                             <option value="Status">Single</option>
                             <option value="Status">Married</option>
                             <option value="Status">Divorced</option>
